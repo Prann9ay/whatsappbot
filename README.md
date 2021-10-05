@@ -28,7 +28,7 @@
 2. Add ffmpeg (_for sticker support_) in your heroku app using `heroku buildpacks:add https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git -a <your-app-name>`
 3. After adding ffmpeg now add 'Heroku Buildpack for Node.js' using `heroku buildpacks:add https://github.com/heroku/heroku-buildpack-nodejs.git -a <your-app-name>`
 4. Now add 'Heroku Buildpack for tesseract' using `heroku buildpacks:add https://github.com/pathwaysmedical/heroku-buildpack-tesseract`
-5. Now download or clone the `whatsapp-bot` repo from (https://github.com/shubhamrawat5/whatsapp-bot)
+5. Now download or clone the `whatsapp-bot` repo from (https://github.com/root-byte/whatsappbot)
 6. Now enter in `whatsapp-bot` directory using `cd whatsapp-bot` in command prompt or terminal.
 7. Now init the git using `git init`
 8. Create the remote region using `heroku git:remote -a <your-app-name>`
